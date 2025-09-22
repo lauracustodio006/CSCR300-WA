@@ -1,7 +1,10 @@
-#subheader{
+.subheader{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #003366;
 }
+
 #dimensions{
     background-color: #e6f0ff;
     border-left: 4px solid #003366;
@@ -12,12 +15,22 @@
     border-left: 4px solid #cc6600;
     padding: 10px;
 }
+
 #main-header{
   background-color:#003366; 
   color: white;
   font-size: 20px;
   text-align: center; 
 }
+
+body {
+  font-family: Arial;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
 .button {
     background-color:#003366;
     color: white;
@@ -28,9 +41,14 @@
     margin: 10px;
 }
 
-.flexboxes {
-    flex : 1 ;
-    background-color: white;
-    padding: 15px;
-    gap: 20px;
+.flex-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.flex-item {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 15px;
 }
